@@ -9,8 +9,18 @@ h1 {
 	color: #850007;
 }
 
-.column {
+/* Float - either right or left. Kinda like aligning */
+/*.column {
 	margin: 30px;
 	float: left;
 	width: 300px;
+}*/
+
+
+/* Box model - basically its the margin and padding around an object*/
+.my-class {
+	border: 2px solid green;
+	margin: 12px;
+	padding: 10px;
+	background-color: orange;
 }
