@@ -24,3 +24,13 @@ h1 {
 	padding: 10px;
 	background-color: orange;
 }
+
+/*Cascading - Specificity*/
+
+.digital p {
+	background-color: red;
+}
+
+.analog p {
+	background-color: yellow;
+}
