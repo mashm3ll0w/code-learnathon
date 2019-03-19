@@ -1,12 +1,12 @@
 body {
-	/*text-align: center;*/
-	font-family: "Lato";
+    /*text-align: center;*/
+    font-family: "Lato";
 }
 
 h1 {
-	font-family: "Gotham Black";
-	font-size: 3rem;
-	color: #850007;
+    font-family: "Gotham Black";
+    font-size: 3rem;
+    color: #850007;
 }
 
 /* Float - either right or left. Kinda like aligning */
@@ -19,18 +19,18 @@ h1 {
 
 /* Box model - basically its the margin and padding around an object*/
 .my-class {
-	border: 2px solid green;
-	margin: 12px;
-	padding: 10px;
-	background-color: orange;
+    border: 2px solid green;
+    margin: 12px;
+    padding: 10px;
+    background-color: orange;
 }
 
 /*Cascading - Specificity*/
 
 .digital p {
-	background-color: red;
+    background-color: red;
 }
 
 .analog p {
-	background-color: yellow;
+    background-color: yellow;
 }
