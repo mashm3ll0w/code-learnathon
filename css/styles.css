@@ -1,9 +1,9 @@
 body {
-    /*text-align: center;*/
+    text-align: center;
     font-family: "Lato";
 }
 
-h1 {
+h1.lesson-title {
     font-family: "Gotham Black";
     font-size: 3rem;
     color: #850007;
@@ -47,6 +47,19 @@ h1 {
 
 /*Animation effects practice*/
 
-#img-hidden {
+/*#img-hidden {
   display: none;
+}*/
+
+/*Add and Remove Classes*/
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
 }
