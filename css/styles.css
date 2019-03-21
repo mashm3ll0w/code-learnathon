@@ -11,9 +11,9 @@ h1 {
 
 /* Float - either right or left. Kinda like aligning */
 /*.column {
-	margin: 30px;
-	float: left;
-	width: 300px;
+  margin: 30px;
+  float: left;
+  width: 300px;
 }*/
 
 
@@ -32,5 +32,21 @@ h1 {
 }
 
 .analog p {
-    background-color: yellow;
+    background-color: #FF005F;
+}
+
+
+/* simple jQuery Effects */
+/*#img-hidden {
+    display: none;
+}
+
+.peek-paras:hover {
+  color: #009FB8;
+}*/
+
+/*Animation effects practice*/
+
+#img-hidden {
+  display: none;
 }
