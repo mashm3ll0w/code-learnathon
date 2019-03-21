@@ -8,7 +8,13 @@ h1.lesson-title {
     font-size: 3rem;
     color: #850007;
 }
+.container {
+  padding: 2rem;
+}
 
+.row {
+  margin: 2rem;
+}
 /* Float - either right or left. Kinda like aligning */
 /*.column {
   margin: 30px;
