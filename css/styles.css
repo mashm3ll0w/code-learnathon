@@ -69,3 +69,10 @@ h1.lesson-title {
 .red-background {
   background-color: red;
 }
+
+
+/*Forms*/
+
+#legilimens {
+  display: none;
+}

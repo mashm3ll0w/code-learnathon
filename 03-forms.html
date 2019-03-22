@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+          <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+          <link href="css/styles.css" rel="stylesheet" type="text/css">
+          <script src="js/jquery-3.3.1.js"></script>
+          <script src="js/forms.js"></script>
+          <title>A fantastical adventure</title>
+        </head>
+        <body>
+          <h1 class="lesson-title"></h1>
+          <div class="container">
+            <h1>Fill in the blanks and I'll read your mind!</h1>
+            <div id="blanks">
+              <form>
+                <div class="form-group">
+                <label type="text" for="yourName">Enter Your Name</label> 
+                <input type="text" id="yourName" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="yourEmail" type="text">Enter your Email</label>
+                  <input type="text" id="yourEmail" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="phoneNumber">Your Phone Number</label>
+                  <input type="text" id="yourPhone" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-dark btn-lg">Legilimens!</button>
+              </form>
+            </div>
+
+            <div id="legilimens">
+              <h1><em>Legilimens!!</em></h1>
+              <p>Your name is <span class="yourName"></span>, and your Email address is <span class="yourEmail"></span>, and if i should ever need you, i can contact you at your mobile no: <span class="yourPhone"></span>. Thank you. :)</p>
+            </div>
+          </div>
+        </body>
+      </html>
