@@ -83,3 +83,10 @@ h1.lesson-title {
 #story {
   display: none;
 }
+
+
+/*Calculator / Manipulating Forms and Displaying Form Result in HTML*/
+
+button {
+  margin: 10px;
+}
