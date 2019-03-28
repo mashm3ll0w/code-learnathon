@@ -67,7 +67,41 @@ $(document).ready(function() {
 
   var addResult = add(num1, num2);
 
-  $("#calc-result").text("Result: " + addResult);
+  $("#add-result").text("Result: " + addResult);
+
   });
   
+  $("form#subtract").submit(function(event) {
+    event.preventDefault();
+  num1 = parseInt($("#sub1").val());
+  num2 = parseInt($("#sub2").val());
+
+  var subResult = subtract(num1, num2);
+
+  $("#sub-result").text("Result: " + subResult);
+
+  });
+
+  $("form#multiply").submit(function(event) {
+    event.preventDefault();
+  num1 = parseInt($("#mut1").val());
+  num2 = parseInt($("#mut2").val());
+
+  var multiplyResult = multiply(num1, num2);
+
+  $("#multiply-result").text("Result: " + multiplyResult);
+
+  });
+
+  $("form#divide").submit(function(event) {
+    event.preventDefault();
+
+    num1 = parseInt($("#divide1").val());
+    num2 = parseInt($("#divide2").val());
+
+    var divideResult = divide(num1, num2);
+
+    $("#divide-result").text("Result: " + divideResult);
+  });
+
 });
