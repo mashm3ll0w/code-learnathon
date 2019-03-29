@@ -8,6 +8,13 @@ h1.lesson-title {
     font-size: 3rem;
     color: #850007;
 }
+
+.subtitle {
+  font-family: "Gotham Black";
+  font-size: 1.5rem;
+  color: #850007;
+}
+
 .container {
   padding: 2rem;
 }
