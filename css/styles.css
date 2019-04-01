@@ -97,3 +97,10 @@ h1.lesson-title {
 button {
   margin: 10px;
 }
+
+
+/*Branching*/
+
+#under-21, #drinks {
+  display: none;
+}
